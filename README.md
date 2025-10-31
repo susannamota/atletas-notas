@@ -7,23 +7,25 @@ O sistema processa notas de atletas, organizando-as em ordem crescente, descarta
 
  **Funcionalidades**
 
-Ordenação de notas: Organiza as notas de cada atleta em ordem crescente
-Filtragem de notas válidas: Descarta a maior e a menor nota
-Cálculo de média: Calcula a média aritmética das notas válidas
-Apresentação formatada: Exibe os resultados de forma clara e organizada
+ - Ordenação de notas: Organiza as notas de cada atleta em ordem
+   crescente 
+ - Filtragem de notas válidas: Descarta a maior e a menor nota   
+ - Cálculo de média: Calcula a média aritmética das notas válidas
+  - Apresentação formatada: Exibe os resultados de forma clara e      
+   organizada
 
 **Tecnologias Utilizadas**
 
-JavaScript ES6+
-Array methods: map(), sort(), slice(), reduce()
-Template literals para formatação de strings
-
+ - JavaScript ES6+ 
+ - Array methods: map(), sort(), slice(), reduce()
+ - Template literals para formatação de strings
 
 **Exemplo de Saída**
 
-Nome: Cesar Abascal
-Notas Ordenadas: 7.88,8.42,9.34,10,10
-Média: 9.25
+    Nome: Cesar Abascal
+    Notas Ordenadas: 7.88,8.42,9.34,10,10
+    Média: 9.25
+
 _________________________________
 
 🔧 Código Javascript
@@ -67,7 +69,6 @@ _________________________________
 
 
 **Melhorias Futuras**
-Adicionar funcionalidade de ranking
-
+ - Adicionar funcionalidade de ranking
 
 Desenvolvido como parte de um exercício de lógica de programação com JavaScript, Por **Susanna Mota**.
