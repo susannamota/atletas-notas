@@ -29,7 +29,8 @@ function calcularNotas() {
     let media = somaNotas / notasValidas.length;
 
     console.log(`Nome: ${atleta.nome}`);
-    console.log(`Notas Ordenadas: ${notasOrganizadas}`);
+    console.log(`Notas Ordenadas: ${notasOrganizadas.join(", ")}`);
+    console.log(`Notas válidas: ${notasValidas.join(", ")}`);
     console.log(`Média: ${media.toFixed(2)}`);
     console.log(`_________________________________`)
     
